@@ -13,7 +13,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky top-8 flex w-40 shrink-0 flex-col gap-6">
+    <nav className="sticky top-8 flex shrink-0 flex-col gap-6">
       <Link href="/" className="text-lg font-semibold text-gray-900">
         Rohan Sikand
       </Link>
