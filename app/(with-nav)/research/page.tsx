@@ -141,7 +141,7 @@ export default function Research() {
         {publications.map((pub) => (
           <article
             key={pub.title}
-            className="group flex gap-4 rounded-lg border border-gray-100 bg-white p-4 transition-shadow hover:shadow-md"
+            className="group flex gap-4 rounded-lg border border-gray-200 p-4"
           >
             {/* Thumbnail */}
             <img
