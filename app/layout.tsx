@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} antialiased`}>
-        <div className="mx-auto flex max-w-5xl px-6 py-8">
+        <div className="mx-auto flex max-w-5xl px-6 pt-16 pb-8">
           <Navbar />
           <main className="flex-1 min-w-0 pl-8 ml-8 border-l border-gray-200">
             {children}
