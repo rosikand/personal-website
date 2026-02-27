@@ -33,7 +33,7 @@ export default function Home() {
 
         {/* Profile image + theme toggle */}
         <div className="flex flex-col items-center gap-3 flex-shrink-0">
-          <div className="h-40 w-40 rounded-full bg-gray-200" />
+          <img src="https://pbs.twimg.com/profile_images/2026276901573251072/Zd186FU9_400x400.jpg" alt="Rohan Sikand" className="h-40 w-40 rounded-full object-cover" />
           <ThemeToggle />
         </div>
       </div>
