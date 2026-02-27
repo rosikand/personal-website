@@ -4,6 +4,7 @@ export interface Post {
   date: string;
   summary: string;
   content: string[];
+  fullWidth?: boolean;
 }
 
 const posts: Post[] = [
@@ -25,6 +26,7 @@ const posts: Post[] = [
     slug: "personalization-of-ai-models",
     title: "The Next Frontiers: Personalization of AI Models",
     date: "September 15, 2024",
+    fullWidth: true,
     summary:
       "How AI models may become increasingly personalized rather than remaining uniform, large-scale systems.",
     content: [

@@ -12,7 +12,7 @@ export default function Blog() {
         {posts.map((post) => (
           <Link
             key={post.slug}
-            href={`/blog/${post.slug}`}
+            href={post.fullWidth ? `/post/${post.slug}` : `/blog/${post.slug}`}
             className="flex items-baseline justify-between gap-4 group"
           >
             <span className="text-gray-900 group-hover:text-blue-600 transition-colors">

@@ -1,9 +1,12 @@
 import { notFound } from "next/navigation";
+import { redirect } from "next/navigation";
 import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import Link from "next/link";
 
 export function generateStaticParams() {
-  return getAllPosts().map((post) => ({ slug: post.slug }));
+  return getAllPosts()
+    .filter((post) => !post.fullWidth)
+    .map((post) => ({ slug: post.slug }));
 }
 
 export default async function BlogPost({
@@ -16,6 +19,10 @@ export default async function BlogPost({
 
   if (!post) {
     notFound();
+  }
+
+  if (post.fullWidth) {
+    redirect(`/post/${post.slug}`);
   }
 
   return (
