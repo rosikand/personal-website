@@ -1,4 +1,9 @@
+# Personal webpage starter 
+
+> Note: this branch is just a starter branch. Make a new branch and then add in your content. Refer to this one as the template. 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
 
 ## Getting Started
 
