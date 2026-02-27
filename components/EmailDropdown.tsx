@@ -32,16 +32,10 @@ export default function EmailDropdown() {
       {open && (
         <div className="absolute left-0 top-8 z-10 rounded-md border border-gray-200 bg-white py-2 shadow-md">
           <a
-            href="mailto:your.personal@email.com"
+            href="mailto:rsikand@stanford.edu"
             className="block whitespace-nowrap px-4 py-1.5 text-sm text-gray-600 hover:text-blue-600"
           >
-            your.personal@email.com
-          </a>
-          <a
-            href="mailto:your.work@company.com"
-            className="block whitespace-nowrap px-4 py-1.5 text-sm text-gray-600 hover:text-blue-600"
-          >
-            your.work@company.com
+            rsikand@stanford.edu
           </a>
         </div>
       )}

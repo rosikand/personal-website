@@ -6,6 +6,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/research", label: "Research" },
   { href: "/blog", label: "Blog" },
+  { href: "/misc", label: "Misc" },
 ];
 
 export default function Navbar() {
@@ -14,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-8 flex w-40 shrink-0 flex-col gap-6">
       <Link href="/" className="text-lg font-semibold text-gray-900">
-        Your Name
+        Rohan Sikand
       </Link>
       <div className="flex flex-col gap-3">
         {links.map(({ href, label }) => (

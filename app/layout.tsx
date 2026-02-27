@@ -9,8 +9,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name",
-  description: "Personal website",
+  title: "Rohan Sikand",
+  description: "Rohan Sikand — Stanford CS (AI) B.S., M.S. 2025",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} antialiased`}>
         <div className="mx-auto flex max-w-5xl px-6 py-8">
           <Navbar />
-          <main className="flex-1 min-w-0 pl-8 ml-8 border-l border-gray-200">
+          <main className="flex-1 min-w-0 pl-4 ml-4 border-l border-gray-200">
             {children}
           </main>
         </div>

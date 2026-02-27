@@ -8,17 +8,26 @@ export default function Home() {
         {/* Bio */}
         <div className="max-w-xl space-y-4">
           <p className="text-gray-700 leading-relaxed">
-            I&apos;m a researcher and engineer interested in machine learning, computational
-            science, and building tools that make complex ideas accessible. Currently,
-            I&apos;m pursuing graduate studies in computer science at a leading university.
+            I&apos;m Rohan Sikand. I studied computer science (AI) at Stanford,
+            completing both my B.S. and M.S. in 2025. My research interests span
+            self-supervised learning and ML engineering.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Previously, I studied physics and mathematics as an undergraduate. I&apos;ve
-            worked on projects spanning scientific computing, natural language processing,
-            and data visualization at several research labs and technology companies.
+            Previously, I worked on self-supervised learning research at{" "}
+            <a href="https://ai.stanford.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              SAIL (Stanford AI Lab)
+            </a>{" "}
+            and built segmentation models at{" "}
+            <a href="https://insitro.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              insitro
+            </a>.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Outside of work, I enjoy reading, hiking, and exploring new cities.
+            I also write about startups and venture capital on my Substack,{" "}
+            <a href="https://rosikand.substack.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              Rohan&apos;s Random Walks
+            </a>.
+            Outside of work, I enjoy golf and poker.
           </p>
         </div>
 
