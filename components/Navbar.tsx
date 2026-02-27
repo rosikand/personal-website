@@ -13,11 +13,11 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky top-8 flex shrink-0 flex-col gap-6">
+    <nav className="flex items-center justify-between">
       <Link href="/" className="text-lg font-semibold text-gray-900">
         Rohan Sikand
       </Link>
-      <div className="flex flex-col gap-3">
+      <div className="flex items-center gap-6">
         {links.map(({ href, label }) => (
           <Link
             key={href}
