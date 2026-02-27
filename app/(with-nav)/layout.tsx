@@ -6,10 +6,9 @@ export default function WithNavLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="mx-auto max-w-3xl px-6 pt-8 pb-8">
+    <div className="max-w-3xl px-6 pt-8 pb-8 ml-[10%]">
       <Navbar />
-      <hr className="mt-4 border-gray-200" />
-      <main className="pt-8">
+      <main className="pt-12">
         {children}
       </main>
     </div>
