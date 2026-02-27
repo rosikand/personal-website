@@ -106,7 +106,7 @@ function highlightAuthor(name: string) {
 
 export default function Research() {
   return (
-    <div className="space-y-10">
+    <div className="space-y-6">
       {/* Page header */}
       <div className="space-y-3">
         <h2 className="text-2xl font-semibold text-gray-900">Research</h2>
