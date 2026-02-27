@@ -29,7 +29,7 @@ export default function Misc() {
             <li key={note.title}>
               <a
                 href={note.href}
-                className="text-sm text-blue-600 hover:underline"
+                className="text-sm text-[#8C1515] hover:underline"
               >
                 {note.title}
               </a>

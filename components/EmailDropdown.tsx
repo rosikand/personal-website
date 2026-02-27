@@ -20,7 +20,7 @@ export default function EmailDropdown() {
     <div className="relative" ref={ref}>
       <button
         onClick={() => setOpen(!open)}
-        className="text-gray-500 transition-colors hover:text-blue-600"
+        className="text-gray-500 transition-colors hover:text-[#8C1515]"
         aria-label="Email"
       >
         <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -33,7 +33,7 @@ export default function EmailDropdown() {
         <div className="absolute left-0 top-8 z-10 rounded-md border border-gray-200 bg-white py-2 shadow-md">
           <a
             href="mailto:rsikand@stanford.edu"
-            className="block whitespace-nowrap px-4 py-1.5 text-sm text-gray-600 hover:text-blue-600"
+            className="block whitespace-nowrap px-4 py-1.5 text-sm text-gray-600 hover:text-[#8C1515]"
           >
             rsikand@stanford.edu
           </a>

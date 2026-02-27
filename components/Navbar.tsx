@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link
             key={href}
             href={href}
-            className={`text-sm transition-colors hover:text-blue-600 ${
+            className={`text-sm transition-colors hover:text-[#8C1515] ${
               pathname === href || (href !== "/" && pathname.startsWith(href))
                 ? "text-gray-900 font-medium"
                 : "text-gray-500"

@@ -15,7 +15,7 @@ export default function Blog() {
             href={post.fullWidth ? `/post/${post.slug}` : `/blog/${post.slug}`}
             className="flex items-baseline justify-between gap-4 group"
           >
-            <span className="text-gray-900 group-hover:text-blue-600 transition-colors">
+            <span className="text-gray-900 group-hover:text-[#8C1515] transition-colors">
               {post.title}
             </span>
             <span className="text-sm text-gray-400 shrink-0">{post.date}</span>

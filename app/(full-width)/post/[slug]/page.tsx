@@ -25,7 +25,7 @@ export default async function FullWidthBlogPost({
       <div className="space-y-2">
         <Link
           href="/blog"
-          className="text-sm text-gray-400 transition-colors hover:text-blue-600"
+          className="text-sm text-gray-400 transition-colors hover:text-[#8C1515]"
         >
           &larr; Back to blog
         </Link>

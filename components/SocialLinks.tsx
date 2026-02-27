@@ -8,7 +8,7 @@ export default function SocialLinks() {
         href="https://twitter.com/rosikand"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-500 transition-colors hover:text-blue-600"
+        className="text-gray-500 transition-colors hover:text-[#8C1515]"
         aria-label="Twitter"
       >
         <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -21,7 +21,7 @@ export default function SocialLinks() {
         href="https://github.com/rosikand"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-500 transition-colors hover:text-blue-600"
+        className="text-gray-500 transition-colors hover:text-[#8C1515]"
         aria-label="GitHub"
       >
         <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -34,7 +34,7 @@ export default function SocialLinks() {
         href="https://www.linkedin.com/in/rosikand/"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-500 transition-colors hover:text-blue-600"
+        className="text-gray-500 transition-colors hover:text-[#8C1515]"
         aria-label="LinkedIn"
       >
         <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
@@ -47,7 +47,7 @@ export default function SocialLinks() {
         href="https://rosikand.substack.com/"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-gray-500 transition-colors hover:text-blue-600"
+        className="text-gray-500 transition-colors hover:text-[#8C1515]"
         aria-label="Substack"
       >
         <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">

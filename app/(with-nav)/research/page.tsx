@@ -115,14 +115,14 @@ export default function Research() {
           evaluation. Read my{" "}
           <Link
             href="/research/statement"
-            className="text-blue-600 hover:underline"
+            className="text-[#8C1515] hover:underline"
           >
             research statement
           </Link>{" "}
           or see{" "}
           <a
             href="https://scholar.google.com/citations?user=rosikand"
-            className="text-blue-600 hover:underline"
+            className="text-[#8C1515] hover:underline"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -192,7 +192,7 @@ export default function Research() {
                     href={pub.links.paper}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[11px] font-medium text-blue-600 hover:underline"
+                    className="text-[11px] font-medium text-[#8C1515] hover:underline"
                   >
                     [paper]
                   </a>
@@ -218,7 +218,7 @@ export default function Research() {
                   href={proj.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm font-medium text-gray-900 hover:text-blue-600 transition-colors"
+                  className="text-sm font-medium text-gray-900 hover:text-[#8C1515] transition-colors"
                 >
                   {proj.title}
                 </a>

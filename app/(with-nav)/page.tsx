@@ -14,17 +14,17 @@ export default function Home() {
           </p>
           <p className="text-gray-700 leading-relaxed">
             Previously, I worked on self-supervised learning research at{" "}
-            <a href="https://ai.stanford.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+            <a href="https://ai.stanford.edu/" target="_blank" rel="noopener noreferrer" className="text-[#8C1515] hover:underline">
               SAIL (Stanford AI Lab)
             </a>{" "}
             and built segmentation models at{" "}
-            <a href="https://insitro.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+            <a href="https://insitro.com/" target="_blank" rel="noopener noreferrer" className="text-[#8C1515] hover:underline">
               insitro
             </a>.
           </p>
           <p className="text-gray-700 leading-relaxed">
             I also write about startups and venture capital on my Substack,{" "}
-            <a href="https://rosikand.substack.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+            <a href="https://rosikand.substack.com/" target="_blank" rel="noopener noreferrer" className="text-[#8C1515] hover:underline">
               Rohan&apos;s Random Walks
             </a>.
             Outside of work, I enjoy golf and poker.
