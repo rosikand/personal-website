@@ -1,0 +1,96 @@
+cv:
+  name: Rohan Sikand
+  label: CS & AI Researcher
+  email: rsikand@stanford.edu
+  location: Stanford, CA
+  image: ""
+  summary: Stanford CS (AI) B.S., M.S. 2025. Interested in AI research, ML engineering, startups, and venture capital.
+
+  social_networks:
+    - network: X
+      username: rosikand
+    - network: GitHub
+      username: rosikand
+    - network: LinkedIn
+      username: rohan-sikand
+
+  address:
+    street: ""
+    city: Stanford
+    region: California
+    postalCode: ""
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: Stanford University
+        location: Stanford, CA
+        url: https://www.stanford.edu/
+        area: Computer Science (Artificial Intelligence)
+        studyType: M.S.
+        start_date: 2024
+        end_date: 2025
+
+      - institution: Stanford University
+        location: Stanford, CA
+        url: https://www.stanford.edu/
+        area: Computer Science (Artificial Intelligence)
+        studyType: B.S.
+        start_date: 2021
+        end_date: 2025
+
+    Experience:
+      - company: insitro
+        position: ML Engineering Intern
+        location: South San Francisco, CA
+        start_date: 2023
+        end_date: 2023
+        summary: Engineered segmentation models for computational biology applications.
+        highlights:
+          - Built and deployed ML segmentation models
+
+      - company: Stanford AI Lab (SAIL)
+        position: Research Assistant
+        location: Stanford, CA
+        start_date: 2022
+        end_date: 2023
+        summary: Conducted research in self-supervised learning.
+        highlights:
+          - Self-supervised learning research
+
+    Skills:
+      - name: Machine Learning
+        level: Advanced
+        icon: fa-solid fa-hashtag
+        keywords: "PyTorch, Deep Learning, Computer Vision, Self-Supervised Learning, NLP"
+
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, C++, JavaScript, Rust"
+
+    Interests:
+      - name: AI Research
+        icon: fa-solid fa-tag
+        keywords: "Machine Learning, Deep Learning, Computer Vision, Reinforcement Learning"
+
+      - name: Startups & Venture Capital
+        icon: fa-solid fa-rocket
+        keywords: "AI Startups, Venture Capital, Entrepreneurship"
+
+    Projects:
+      - name: torchplate
+        summary: A minimal and simple experiment module for machine learning research workflows in PyTorch.
+        highlights:
+          - Lightweight experiment tracking
+          - PyTorch integration
+        start_date: 2022
+        end_date: 2023
+
+      - name: Water Quality ML
+        summary: Machine learning algorithms for predicting water quality parameters from multispectral remote sensing data.
+        highlights:
+          - Remote sensing data analysis
+          - Environmental monitoring
+        start_date: 2020
+        end_date: 2020
