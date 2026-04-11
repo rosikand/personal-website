@@ -1,9 +1,18 @@
-require "active_support/all"
 require 'nokogiri'
 require 'open-uri'
 
 module Helpers
-  extend ActiveSupport::NumberHelper
+  def self.number_to_human(number, options = {})
+    if number >= 1_000_000_000
+      "#{(number / 1_000_000_000.0).round(2)}B"
+    elsif number >= 1_000_000
+      "#{(number / 1_000_000.0).round(2)}M"
+    elsif number >= 1_000
+      "#{(number / 1_000.0).round(2)}K"
+    else
+      number.to_s
+    end
+  end
 end
 
 module Jekyll
